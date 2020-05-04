@@ -33,8 +33,6 @@ tempo: The overall estimated tempo of a track in beats per minute (BPM).
 ## How we built it
 The user authenticates our application through Spotify's OAuth System. We call the API first for all the user's playlists and order the user's songs from most frequently to least frequently listened to. Based on this ordering of songs, we find the statistics mentioned above, using a weighted average to ensure the accuracy of the model. We then conduct a similar call for the top 50 songs currently trending in the US, whose statistics change based on time frame. The information is then represented through a radar graph to observe the similarities and differences between the user's characteristics and the characteristics of the top songs in the nation.
 
-PLEASE NOTE THAT A LARGE NUMBER OF API CALLS NEED TO BE PERFORMED BEFORE THE RESULTS ARE OUTPUTTED. PLEASE WAIT FOR THE RESULTS TO LOAD BEFORE RECLICKING THE SUBMIT BUTTON
-
 ## Challenges we ran into
 As beginners, we had a large amount of difficulty learning how to use the Spotify API, which we had never learned before. Furthermore, the documentation for the Spotify API was written in HTTPS/HTTP format, and we had to convert this to cURL in order to call the API with our backend language, PHP. We also had the issue of biting off more than we could chew, trying to integrate more features into our product than we really had time for. As a result, we ended up with a product that could've been better in multiple aspects.
 
