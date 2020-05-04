@@ -1,0 +1,10 @@
+require_once 'vendor/autoload.php';
+
+$session = new SpotifyWebAPI\Session(
+    'CLIENT_ID',
+    'CLIENT_SECRET',
+    'REDIRECT_URI'
+);
+
+header('Location: ' . $session->getAuthorizeUrl());
+die();
