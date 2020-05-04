@@ -1,6 +1,6 @@
 # Personify
 
-[Spring 2019] Los Altos Hacks IV - Submission
+[Spring 2019] Los Altos Hacks IV - Team Submission
 
 ## Inspiration
 My partners and I are very musically oriented individuals. We understand that an individual's preference in music says a lot about other aspects of their life, such as personality, mood, and more. We decided to use the Spotify API to gather information regarding a song's musical information and convert that into meaningful statistics that could be compared and analyzed.
@@ -46,3 +46,6 @@ We learned a lot about applications of backend technology and also significantly
 
 ## What's next for Personify
 We want to take the data acquired from this project and put it to more practical applications. As of right now, Personify offers a comparision between cultural and and individuals' statistics. We plan on integrating this with other types of information technology, such as sentiment analysis on music lyrics, to analyze information that can be directly applied, instead of inferred.
+
+## Authors
+Built by Kevin C, Dylan F, Ethan L - official submission can be found [here.](https://devpost.com/software/personify-iz3px2)
